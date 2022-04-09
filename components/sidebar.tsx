@@ -12,7 +12,9 @@ export default function Sidebar() {
             color='gray'
         >
             <Box paddingY="20px">
-                <Box width="120px" marginBottom="20px" paddingX="20px"></Box>
+                <Box width="120px" marginBottom="20px" paddingX="20px">
+                    <NextImage src="/logo.png" height={90} width={250} />
+                </Box>
             </Box>
         </Box>
     )
